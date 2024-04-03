@@ -7,3 +7,12 @@ Markup Language = "This is a quote"  Like This double quote ("")
 
 
 Concept is coming from the Book Heading 
+
+
+Attributes  ==
+
+<tag Attributes = "Value" AnotherAttributes = "Value">  </tag>
+
+
+Self Closing tag is also call void element that dosn't have closing tags
+
