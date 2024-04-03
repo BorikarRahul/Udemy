@@ -16,3 +16,42 @@ Attributes  ==
 
 Self Closing tag is also call void element that dosn't have closing tags
 
+    picsum.photos = ramdom pictures with the idea of lorem epsom 
+
+
+<img />  
+<img src="http://" alt="alternative" />
+
+
+#File Path
+
+##Absolute File Path
+Root => File.docx, Project => index.html, dog.png, Images => dog.png
+C:/Project/Images/dog.png
+
+##Relative File Path    (Short parth)
+Images/dog.png
+
+##Special Characters
+../file.docx   (up level)^  
+./dog.png  (current directory)^
+
+#The HTML Boilerplate
+
+<!DOCTYPE html>    =>   Tell any browser that this is HTML5
+<html lang="en"> </html>  => this is tell that this is an ENglish Language lang = "english"
+
+## under the html tag
+<head> </head> => 
+Under the Head Tag 
+
+meta tag = charset = "utf-8" 
+title => tab Name
+
+## under the html tag
+<body></body> 
+Under the body tag we write the all text content which show in the browser 
+
+
+
+
