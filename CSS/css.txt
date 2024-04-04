@@ -1,0 +1,61 @@
+CSS = Cascading Style Sheets
+
+Cascade = like a waterfall
+style Sheets  = type of language 
+
+CSS
+Sass
+Less
+
+
+
+3 ways to adding styles
+
+inline = <tag style="css" />
+
+<tag  attribute  =   property : value
+<html style      = "background: blue"> </html>  
+
+````````````````````````````````````````````````````````
+internal = <style> css </style>
+
+<html>
+    <head>
+        <style>
+            html {  = selector      (element)
+                background: red;
+            }
+        </style>
+    </head>
+</html>
+
+`````````````````````````````````````````````````````````
+
+external = <link href="style.css"/>
+
+==   index.html ( HTML FILE )
+<html>
+    <head>
+                relationship        loction 
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+</html>
+
+== styles.css ( CSS FILE )
+html{
+    background: green;
+}
+
+
+
+CSS Selector = 
+
+Class selector = (.CallName)  ;
+
+ID selector = (#IDName);   It must be Unique and not be repeted
+
+attribute selector = ( tagName[attribute="Value"]{} )   This is how you can select the ussing attribute selector  
+                                                    beware now use break in between the tag name and the attribute value
+
+Universal selector = [*{} ]
+
