@@ -59,3 +59,42 @@ attribute selector = ( tagName[attribute="Value"]{} )   This is how you can sele
 
 Universal selector = [*{} ]
 
+
+
+Color Property:
+
+background-color: value;
+color: value;     
+        Value = hexCode, rgb, rgbh 
+website ( color Hunt, mdn color, )
+
+
+
+Font Family Property:
+
+font size: value;   20px 
+
+1px = 1/96th inch       (Pixel)
+1pt = 1/72nd inch       (Point)
+1em = 100% of parent size     (Relatize Size of the parent tag size ) 
+1rem = 100% of root     (Relative size of the root size)
+
+
+font weight: value;
+
+normal bold
+lighter bolder
+number : 100-900 ;
+    lighter-bolder
+
+font-family: helvetica, sans-serif, "Times New Roman", serif;
+           :Typeface
+
+
+text align
+
+text-align: value; (center, left, right, start, end);
+
+
+
+
