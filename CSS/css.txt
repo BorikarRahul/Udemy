@@ -96,5 +96,11 @@ text align
 text-align: value; (center, left, right, start, end);
 
 
+DIV == Content Division Element 
+
+=> <div> Content </div>
+
+
+
 
 
