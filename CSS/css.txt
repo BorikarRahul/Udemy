@@ -101,6 +101,88 @@ DIV == Content Division Element
 => <div> Content </div>
 
 
+```````````````````````````````````````````````````````````````````````````````````````````````````````
+Cascade -=  
+
+Specificity and inheritance property
+
+
+Position
+li{
+    color: red;
+    color: blue;
+    it apply both color on li => but the conciquences = it it red and then imediatly it convert into blue => and it show blue 
+}
+
+````````Condition                               Type            Importance
+
+Specificity 
+
+li {color: red;}                                Element             4
+.first-class { color: red;}                     Class               3
+li[draggable]{color: purple;}                   Attribute           2   
+#first-id{color: orange}                        ID                  1
+
+
+Type
+
+<link rel="stylesheet" href="./style.css">      External            3
+<style></style>                                 Internal            2
+<h1 style=""> hello </h1>                       Inline              1
+
+Inportance
+
+color: red;                                                         2
+color: green !important;                                            1
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````
+
+CSS Combining selectors
+
+1. Group   using ( , )   =  Apply to both selectors
+
+selector, selector{
+    color: bluevoilet;
+}
+
+2. Child  using ( > ) = Apply to direct child of left side
+
+(parent  > chiled  )
+selector > selector {
+    color: firebrick;
+}
+
+3. Descendant  (   ) = Apply to a Descendant of left side
+
+ansister  desendent 
+
+selector selector {
+    color: blue;
+}
+
+Chaining  () = Apply where All selectors are true
+
+4. Specific
+selectorselector{
+    color: seagreen;
+}
+
+                    <h1 id="title" class="big heading" > helloworld </h1>
+
+eg. h1#title.big.heading    ( super super strong selector and it's specific ) 
+Remember there is no space between them and always go with the same order like above and the h1 tag
+
+
+5. Combining Combiners
+
+ansister chainingMethod
+selector selectorselector {
+    font-size: 0.5rem;
+}
+
+
+
 
 
 
